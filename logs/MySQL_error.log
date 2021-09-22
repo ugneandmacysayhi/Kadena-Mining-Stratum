@@ -1,0 +1,4 @@
+2019-04-28 04:45:58 [MySQL] [raven] - Database error when authenticating account: {"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry 'RFthjbiaMT3vm1zbQJ2YbBKsigVaYrV2c8' for key 'username'","sqlState":"23000","index":0,"sql":"INSERT INTO accounts (coinid, username, balance, hostaddr, payout_min) values (2089, 'RFthjbiaMT3vm1zbQJ2YbBKsigVaYrV2c8', 0, '31.173.243.86', NULL);"}
+2019-05-23 09:36:53 [MySQL] [raven] - Database error when authenticating account: {"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry 'RAbzVB3LwgN9ZgGC86qYG1CNML8kwVS7R1' for key 'username'","sqlState":"23000","index":0,"sql":"INSERT INTO accounts (coinid, username, balance, hostaddr, payout_min) values (2089, 'RAbzVB3LwgN9ZgGC86qYG1CNML8kwVS7R1', 0, '188.166.161.62', NULL);"}
+2019-06-06 22:37:43 [MySQL] [raven] - Error when cleaning up worker id : undefined
+2019-06-06 22:37:43 [MySQL] [raven] - Error when cleaning up worker id : 95074705

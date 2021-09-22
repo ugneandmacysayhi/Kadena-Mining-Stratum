@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "coin": "kadena.json",
+
+    "address": "",
+
+    "rewardRecipients": {
+        "RDsffBxPZh2SXonPPhvER8cCUwaeaeHbRq": 0.0
+    }, 
+
+    "paymentProcessing": {
+        "enabled": false,
+        "paymentInterval": 20,
+        "minimumPayment": 70,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 19332,
+            "user": "testuser",
+            "password": "testpass"
+        }
+    },
+    "ports": {
+        "3700": {
+            "diff": 17592186044416 
+	},
+	"3701": {
+		"diff": 1099511627776 
+	}
+    },
+    "daemons": [
+        {
+            "host": "YOURIP",
+            "port": 443,
+            "user": "",
+            "password": ""
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 8767,
+        "disableTransactions": false
+    },
+
+    "mposMode": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "SECUREDATABASEPASS",
+        "database": "DATABASENAME",
+        "checkPassword": false,
+        "autoCreateWorker": true
+    }
+}

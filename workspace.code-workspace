@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "node_modules/stratum-pool/lib"
+		},
+		{
+			"path": "libs"
+		}
+	],
+	"settings": {}
+}

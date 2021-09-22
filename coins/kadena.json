@@ -1,0 +1,6 @@
+{
+    "name": "KADENA",
+    "symbol": "KDA",
+    "algorithm": "blake2s",
+    "txfee": 0.00005
+}

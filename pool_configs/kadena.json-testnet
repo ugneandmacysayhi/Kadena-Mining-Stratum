@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "coin": "kadena.json",
+
+    "address": "",
+
+    "rewardRecipients": {
+        "RDsffBxPZh2SXonPPhvER8cCUwaeaeHbRq": 0.0
+    }, 
+
+    "paymentProcessing": {
+        "enabled": false,
+        "paymentInterval": 20,
+        "minimumPayment": 70,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 19332,
+            "user": "testuser",
+            "password": "testpass"
+        }
+    },
+    "ports": {
+        "3700": {
+            "diff": 263000  
+				},
+				"3701": {
+						"diff": 1511627776
+				}
+    },
+    "daemons": [
+        {
+            "host": "8.9.31.244",
+            "port": 443,
+            "user": "",
+            "password": ""
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 8767,
+        "disableTransactions": false
+    },
+
+    "mposMode": {
+        "enabled": true,
+        "host": "192.168.2.21",
+        "port": 3306,
+        "user": "stratum",
+        "password": "p3Osn3UP52OsgSKa9jxRI7e2Hrbr62FA",
+        "database": "yiimpfrontend",
+        "checkPassword": false,
+        "autoCreateWorker": true
+    }
+}

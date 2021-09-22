@@ -1,0 +1,12 @@
+GET /chainweb/0.0/mainnet01/mining/work HTTP/1.1
+Host: kadena1.icemining.ca
+Content-Type: application/json
+
+
+{
+    "account": "miner",
+    "predicate": "keys-all",
+    "public-keys": [
+        "f880a433d6e2a13a32b6169030f56245efdd8c1b8a5027e9ce98a88e886bef27"
+    ]
+}
