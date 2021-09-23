@@ -16,6 +16,7 @@ The Kadena Mining Stratum is Dependant on the Kadena [Chainweb-Node](https://git
 
 To install the Kadena Mining Stratum:
 
+#### Dependencies #### <br>
 > apt update <br>
 > apt upgrade <br>
 > apt install nodejs mysql-server redis-server
@@ -43,6 +44,7 @@ It can take a very long time for the node to sync up so be patient, check https:
 
 #### Running the stratum #### <br>
 Lastly, run the init.js script found in the stratum folder making sure to change the public keys and mysql password in the stratum/.env file as well as the ports for the stratum if desired in the pool_configs/kadena.json file 
+You will also need to make sure that the ports you have configured are open and forwarded correctly.
 >node init.js 
 
 
@@ -146,6 +148,3 @@ Telegram: https://t.me/cmpool_io_chat <br>
 KDA: caf062921c1b781f69f20c5c4ad7e697262017dd98a59380e3b3f16308ae5a90 <br>
 BTC: 3Mdes4zKuEBtS7xTCKZSarP3dApNGFNuEC <br> 
 ETH: 0xFb52a503F129C5e38F8b815e06C8EbDA41D313DD 
-
-
-```
