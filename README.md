@@ -139,7 +139,8 @@ It is reccomended to run both the Stratum and the Chainweb-node using something 
 Happy Mining! <br>
 
 
-**I will be happy to help you get the stratum setup from start to finish for a one time fee, please reach out via discord or telegram to harmonic if interested.** 
+**I will be happy to help you get the stratum setup from start to finish for a one time fee, please reach out via discord or telegram to harmonic if interested.**<br>
+<br> 
 If you have any issues or need assistance please reach out via: <br>
 Discord: https://discord.gg/mrmfBWGUVh <br>
 Telegram: https://t.me/cmpool_io_chat <br> 
