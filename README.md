@@ -1,7 +1,6 @@
-## This repo is looking for maintainers! Please reach out if interested.
 
 <p align="center">
-  <img src="https://cmpool.io/mine.png" width="250" title="hover text">
+  <img src="https://i.ibb.co/w4jzh9F/mine.png" width="250" title="hover text">
 </p>
 
 #### Kadena Mining Stratum ####
